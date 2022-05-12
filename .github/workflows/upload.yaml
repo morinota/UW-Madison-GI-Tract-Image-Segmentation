@@ -20,6 +20,7 @@ jobs:
         run: pip install kaggle
 
       - name: zip source
+      # 自分のリポジトリをまるごと zip で圧縮し作成したディレクトリに保存
         run: zip -r ./upload_kaggle_dir/src.zip ./src
 
       - name: Upload to kaggle
