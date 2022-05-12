@@ -1,5 +1,5 @@
 name: upload to kaggle
-on: push # mainブランチに直接pushした時に走らせる。
+on: [push] # mainブランチに直接pushした時に走らせる。
 
 jobs:
   UplodaKaggle:
