@@ -24,6 +24,6 @@ jobs:
 
       - name: Upload to kaggle
         env:
-          KAGGLE_USERNAME: ${{ secrets.KaggleUsername }}
-          KAGGLE_KEY: ${{ secrets.KaggleKey }}
+          KAGGLE_USERNAME: "masatomasamasa"
+          KAGGLE_KEY: "5530a94bd76bac1415034d9f14cea01f"
         run: kaggle datasets version -p ./upload_kaggle_dir -m 'update' -d
