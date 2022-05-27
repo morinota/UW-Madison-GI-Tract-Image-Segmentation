@@ -1,6 +1,6 @@
 
-import kaggle
 import os
+
 
 class Config:
     # datasetについて
