@@ -24,6 +24,7 @@ jobs:
         run: zip -r ./upload_kaggle_dir/src.zip ./src
 
       - name: Upload to kaggle
+      # kaggle api を使って圧縮したファイルをアップロード
         env:
           KAGGLE_USERNAME: "masatomasamasa"
           KAGGLE_KEY: "5530a94bd76bac1415034d9f14cea01f"
